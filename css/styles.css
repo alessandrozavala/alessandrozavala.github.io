@@ -32,9 +32,9 @@ section{
     padding: 0 20px;
 }
 
+/* Estilos de la barra de navegación */
 
 #nav{
-    margin-top: 3px;
     position: fixed;
     background-color: rgba(0, 0, 0, .8);
     display: flex;
@@ -47,9 +47,7 @@ section{
 .nav_logo{
     display: flex;
     align-items: center;
-    background-color: black;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 3px;
 }
 
 .nav_title{
@@ -82,6 +80,8 @@ section{
     color: rgb(38, 38, 203);
 }
 
+/* Estilos de la sección home */
+
 #home{
     min-height: 100vh;
     display: flex;
@@ -101,4 +101,30 @@ section{
     width: 100%;
     position: absolute;
     z-index: -1;
+}
+
+.home_content{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    backdrop-filter: blur(5px);
+    padding: 1% 1%;
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+}
+
+
+
+.home_img{
+    height: 250px;
+    border-radius: 50%;
+}
+
+.home_title{
+    font-size: 30px;
+    margin-top: 46px;
+}
+
+.my_name{
+    color: rgb(38, 38, 203);
 }
